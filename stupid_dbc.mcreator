@@ -1,0 +1,68 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/fivenights/stupid_dbc/world/BlackHoleSavedData.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/fivenights/stupid_dbc/ai/MoveToBlockGoal.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/LevelRendererMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/fivenights/stupid_dbc/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/resources/stupid_dbc.mixins.json",
+      "src/main/java/net/fivenights/stupid_dbc/network/CameraShakePayload.java",
+      "src/main/java/net/fivenights/stupid_dbc/math/CallCooldownManager.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/fivenights/stupid_dbc/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/fivenights/stupid_dbc/entity/CustomFireballEntity.java",
+      "src/main/java/net/fivenights/stupid_dbc/entity/CustomEyeOfEnderEntity.java",
+      "src/main/java/net/fivenights/stupid_dbc/math/CallCounter.java",
+      "src/main/java/net/fivenights/stupid_dbc/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/CameraAccessor.java",
+      "src/main/java/net/fivenights/stupid_dbc/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/java/net/fivenights/stupid_dbc/ai/OrbitPositionGoal.java",
+      "src/main/java/net/fivenights/stupid_dbc/ai/MoveToStructureGoal.java",
+      "src/main/java/net/fivenights/stupid_dbc/ai/OverrideMovementGoal.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/fivenights/stupid_dbc/world/BlockDamageHandler.java",
+      "src/main/java/net/fivenights/stupid_dbc/world/TeleportBlockHandler.java",
+      "src/main/java/net/fivenights/stupid_dbc/StupidDbcMod.java",
+      "src/main/java/net/fivenights/stupid_dbc/world/PortalSavedData.java",
+      "src/main/java/net/fivenights/stupid_dbc/network/NetworkRegister.java",
+      "src/main/java/net/fivenights/stupid_dbc/client/renderer/CustomEyeOfEnderRenderer.java",
+      "src/main/java/net/fivenights/stupid_dbc/StupidDbcModPlayerAnimationAPI.java",
+      "src/main/java/net/fivenights/stupid_dbc/client/CameraShakeManager.java",
+      "src/main/java/net/fivenights/stupid_dbc/world/BlackHoleManager.java",
+      "src/main/java/net/fivenights/stupid_dbc/client/CameraShakeClientEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "stupid_dbc",
+    "modName": "Stupid DBC",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.fivenights.stupid_dbc"
+  },
+  "mcreatorVersion": 202600233518
+}
