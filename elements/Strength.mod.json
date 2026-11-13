@@ -14,14 +14,37 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "fontScale": 100,
+          "fontScale": 200,
           "textProcedure": "StrengthTextProcedure",
+          "overflowMode": "VISIBLE",
+          "tooltipWhenTruncated": false,
+          "width": 120,
+          "height": 20,
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "sized_text_label",
+        "data": {
+          "name": "sized_text_label_dmg",
+          "text": "DMG",
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "fontScale": 150,
+          "textProcedure": "MeleeTextProcedure",
           "overflowMode": "ELLIPSIS",
           "tooltipWhenTruncated": false,
           "width": 120,
-          "height": 10,
-          "x": 25,
-          "y": 220,
+          "height": 15,
+          "anchorPoint": "TOP_LEFT",
+          "x": 0,
+          "y": 20,
           "locked": false
         }
       }

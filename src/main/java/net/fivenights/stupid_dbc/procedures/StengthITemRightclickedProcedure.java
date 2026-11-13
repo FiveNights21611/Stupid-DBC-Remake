@@ -16,6 +16,6 @@ public class StengthITemRightclickedProcedure {
 			_vars.markSyncDirty();
 		}
 		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal(("Your Strength Is now: " + entity.getData(StupidDbcModVariables.PLAYER_VARIABLES).Strength)), false);
+			_player.displayClientMessage(Component.literal(("Your Strength Is now: " + entity.getData(StupidDbcModVariables.PLAYER_VARIABLES).Strength)), true);
 	}
 }

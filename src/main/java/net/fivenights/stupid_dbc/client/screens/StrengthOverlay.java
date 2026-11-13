@@ -30,8 +30,9 @@ public class StrengthOverlay {
 		if (true) {
 
 			if (true)
-				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), java.util.Objects.toString(net.fivenights.stupid_dbc.procedures.StrengthTextProcedureProcedure.execute(entity), ""), w / 2 + -188, h / 2 + 100, 120, -6750208, false, 1.00F,
-						2);
+				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), java.util.Objects.toString(net.fivenights.stupid_dbc.procedures.StrengthTextProcedureProcedure.execute(entity), ""), 0, 0, 120, -6750208, false, 2.00F, 0);
+			if (true)
+				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), java.util.Objects.toString(net.fivenights.stupid_dbc.procedures.MeleeTextProcedureProcedure.execute(entity), ""), 0, 20, 120, -13434880, false, 1.50F, 2);
 		}
 	}
 
