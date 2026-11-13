@@ -1,6 +1,19 @@
 {
   "mod_elements": [],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "race",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Human"
+    },
+    {
+      "name": "playerClass",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Martial Artist"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
@@ -34,6 +47,7 @@
       "src/main/java/net/fivenights/stupid_dbc/ai/OverrideMovementGoal.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/fivenights/stupid_dbc/world/BlockDamageHandler.java",
+      "src/main/java/net/fivenights/stupid_dbc/network/NbtArrayLists.java",
       "src/main/java/net/fivenights/stupid_dbc/world/TeleportBlockHandler.java",
       "src/main/java/net/fivenights/stupid_dbc/StupidDbcMod.java",
       "src/main/java/net/fivenights/stupid_dbc/world/PortalSavedData.java",
@@ -41,6 +55,7 @@
       "src/main/java/net/fivenights/stupid_dbc/client/renderer/CustomEyeOfEnderRenderer.java",
       "src/main/java/net/fivenights/stupid_dbc/StupidDbcModPlayerAnimationAPI.java",
       "src/main/java/net/fivenights/stupid_dbc/client/CameraShakeManager.java",
+      "src/main/java/net/fivenights/stupid_dbc/network/StupidDbcModVariables.java",
       "src/main/java/net/fivenights/stupid_dbc/world/BlackHoleManager.java",
       "src/main/java/net/fivenights/stupid_dbc/client/CameraShakeClientEvents.java"
     ]
@@ -52,16 +67,21 @@
   "workspaceSettings": {
     "modid": "stupid_dbc",
     "modName": "Stupid DBC",
-    "version": "1.0.0",
-    "author": "MCreator",
+    "version": "1.0.0-beta1",
+    "author": "FiveNights2161, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
+    "modPicture": "sdbc_icon",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using MCreator",
     "modElementsPackage": "net.fivenights.stupid_dbc"
   },
   "mcreatorVersion": 202600233518

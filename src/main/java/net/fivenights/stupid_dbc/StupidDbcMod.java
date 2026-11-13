@@ -25,6 +25,8 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.fivenights.stupid_dbc.network.StupidDbcModVariables;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
 import java.util.PriorityQueue;
@@ -45,6 +47,7 @@ public class StupidDbcMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		StupidDbcModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
