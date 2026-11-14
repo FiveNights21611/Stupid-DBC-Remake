@@ -66,8 +66,9 @@ public class StupidDbcModVariables {
 	public static void clonePlayer(PlayerEvent.Clone event) {
 		PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 		PlayerVariables clone = new PlayerVariables();
+		clone.Strength = original.Strength;
+		clone.melee_dmg = original.melee_dmg;
 		if (!event.isWasDeath()) {
-			clone.Strength = original.Strength;
 		}
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
 	}
@@ -75,17 +76,20 @@ public class StupidDbcModVariables {
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		boolean _syncDirty = false;
 		public double Strength = 0.0;
+		public double melee_dmg = 0;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("Strength", Strength);
+			nbt.putDouble("melee_dmg", melee_dmg);
 			return nbt;
 		}
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			Strength = nbt.getDouble("Strength");
+			melee_dmg = nbt.getDouble("melee_dmg");
 		}
 
 		public void markSyncDirty() {

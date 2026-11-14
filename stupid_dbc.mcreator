@@ -89,8 +89,14 @@
     {
       "name": "Strength",
       "type": "number",
-      "scope": "player_lifetime",
+      "scope": "player_persistent",
       "value": "0.0"
+    },
+    {
+      "name": "melee_dmg",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],

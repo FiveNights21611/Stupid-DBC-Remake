@@ -16,12 +16,12 @@
           "hasShadow": false,
           "fontScale": 100,
           "textProcedure": "StrengthTextProcedure",
-          "overflowMode": "ELLIPSIS",
+          "overflowMode": "VISIBLE",
           "tooltipWhenTruncated": false,
           "width": 120,
           "height": 10,
-          "x": 25,
-          "y": 220,
+          "x": 67,
+          "y": 87,
           "locked": false
         }
       }
