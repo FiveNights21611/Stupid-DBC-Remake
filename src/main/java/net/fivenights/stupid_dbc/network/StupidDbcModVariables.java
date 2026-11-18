@@ -68,6 +68,9 @@ public class StupidDbcModVariables {
 		PlayerVariables clone = new PlayerVariables();
 		clone.Strength = original.Strength;
 		clone.melee_dmg = original.melee_dmg;
+		clone.max_health = original.max_health;
+		clone.health = original.health;
+		clone.healthstart = original.healthstart;
 		if (!event.isWasDeath()) {
 		}
 		event.getEntity().setData(PLAYER_VARIABLES, clone);
@@ -77,12 +80,18 @@ public class StupidDbcModVariables {
 		boolean _syncDirty = false;
 		public double Strength = 0.0;
 		public double melee_dmg = 0;
+		public double max_health = 20.0;
+		public double health = 0.0;
+		public boolean healthstart = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("Strength", Strength);
 			nbt.putDouble("melee_dmg", melee_dmg);
+			nbt.putDouble("max_health", max_health);
+			nbt.putDouble("health", health);
+			nbt.putBoolean("healthstart", healthstart);
 			return nbt;
 		}
 
@@ -90,6 +99,9 @@ public class StupidDbcModVariables {
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			Strength = nbt.getDouble("Strength");
 			melee_dmg = nbt.getDouble("melee_dmg");
+			max_health = nbt.getDouble("max_health");
+			health = nbt.getDouble("health");
+			healthstart = nbt.getBoolean("healthstart");
 		}
 
 		public void markSyncDirty() {

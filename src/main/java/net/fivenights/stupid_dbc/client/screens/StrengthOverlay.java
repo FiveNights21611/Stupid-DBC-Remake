@@ -32,6 +32,13 @@ public class StrengthOverlay {
 			if (true)
 				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), java.util.Objects.toString(net.fivenights.stupid_dbc.procedures.StrengthTextProcedureProcedure.execute(entity), ""), w / 2 + -146, h / 2 + -33, 120, -6750208, false, 1.00F,
 						0);
+			if (true)
+				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), java.util.Objects.toString(net.fivenights.stupid_dbc.procedures.HealthtextprocProcedure.execute(entity), ""), w / 2 + -98, h / 2 + -10, 120, -12829636, false, 1.00F, 2);
+			if (true)
+				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), java.util.Objects.toString(net.fivenights.stupid_dbc.procedures.HTextProcedureealthProcedure.execute(entity), ""), w / 2 + -174, h / 2 + -10, 120, -12829636, false, 1.00F,
+						2);
+			if (true)
+				guiTools$renderOverlaySizedTextLabel(event.getGuiGraphics(), "/", w / 2 + -125, h / 2 + -10, 120, -12829636, false, 1.00F, 2);
 		}
 	}
 

@@ -24,6 +24,68 @@
           "y": 87,
           "locked": false
         }
+      },
+      {
+        "type": "sized_text_label",
+        "data": {
+          "name": "sized_text_label_maxhealth",
+          "text": "maxhealth",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "fontScale": 100,
+          "textProcedure": "Healthtextproc",
+          "overflowMode": "ELLIPSIS",
+          "tooltipWhenTruncated": false,
+          "width": 120,
+          "height": 10,
+          "x": 115,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "sized_text_label",
+        "data": {
+          "name": "sized_text_label_health",
+          "text": "health",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "fontScale": 100,
+          "textProcedure": "HTextProcedureealth",
+          "overflowMode": "ELLIPSIS",
+          "tooltipWhenTruncated": false,
+          "width": 120,
+          "height": 10,
+          "x": 39,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "sized_text_label",
+        "data": {
+          "name": "sized_text_label_empty",
+          "text": "/",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "fontScale": 100,
+          "overflowMode": "ELLIPSIS",
+          "tooltipWhenTruncated": false,
+          "width": 120,
+          "height": 10,
+          "x": 88,
+          "y": 110,
+          "locked": false
+        }
       }
     ],
     "baseTexture": "",
